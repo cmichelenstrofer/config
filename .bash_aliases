@@ -48,6 +48,8 @@ alias gitlog="git log --decorate --graph --all"
 
 # Python
 alias venv="source .venv/bin/activate"
+alias python="python3"
+alias pip="pip3"
 
 # Julia                                                                                      
 alias juliap="julia --project"                                                               
