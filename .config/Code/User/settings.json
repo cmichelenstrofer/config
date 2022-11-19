@@ -1,0 +1,43 @@
+// This file is automatically synced by VSCode itself.
+// On Mac this file is in: $HOME/Library/Application Support/Code/User/settings.json
+{
+    // workbench look
+    "workbench.colorTheme": "Solarized Light",
+    "workbench.iconTheme": "icons",
+    // workbench startup behavior
+    "workbench.startupEditor": "none",
+    // editor look
+    "editor.guides.indentation": false,
+    // diff
+    "diffEditor.ignoreTrimWhitespace": false,
+    // white spaces
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    // prompts
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    // terminal
+    "terminal.integrated.fontFamily": "JuliaMono",
+    // Python
+    "[python]": {
+        "editor.rulers": [72, 79]
+    },
+    // Julia
+    "[julia]": {
+        "editor.rulers": [92],
+        "editor.fontFamily": "JuliaMono",
+        "editor.fontLigatures": true
+    },
+    "julia.execution.codeInREPL": true,
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": true,
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt"
+    ]
+}
+
