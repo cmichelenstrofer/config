@@ -1,0 +1,10 @@
+[user]
+    name = Carlos A. Michelén Ströfer
+    email = c.michelen.strofer@gmail.com
+[pull]
+    rebase = false
+[github]
+    user = cmichelenstrofer
+[init]
+    defaultBranch = main
+
