@@ -11,9 +11,9 @@ if [ -n "$BASH_VERSION" ]; then
     GREEN="\[\033[01;32m\]"
     BLUE="\[\033[01;34m\]"
     PS1="${RESET}${GREEN}\u${NORMAL} ${BLUE}(\w)${NORMAL} ${GREEN}>${NORMAL} "
-elif [ -n "$ZSH_VERSION"]; then
+elif [ -n "$ZSH_VERSION" ]; then
     PROMPT="%F{cyan}%n > %f"
-    RPROMPT="%F{green}(%1~)%f"
+    RPROMPT="%F{green}(%~)%f"
 fi
 
 
@@ -21,7 +21,7 @@ fi
 # color
 if [ -n "$BASH_VERSION" ]; then
     alias ls="ls --color=auto"                                                                   
-elif [ -n "$ZSH_VERSION"]; then
+elif [ -n "$ZSH_VERSION" ]; then
     alias ls="ls -G"
 fi
 alias diff="colordiff"  # need to install
