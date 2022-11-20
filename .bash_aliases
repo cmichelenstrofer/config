@@ -43,9 +43,6 @@ alias rsync_ssh="rsync -P --rsh=ssh"
 # Configuration "dot" files - Git repo
 alias config="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
-# Bin executables - Git repo
-alias bin='/usr/bin/git --git-dir=$HOME/.bin/ --work-tree=$HOME/bin'
-
 # Git
 alias gitlog="git log --decorate --graph --all"
 
