@@ -1,0 +1,13 @@
+# mv to project's .git/info/exclude
+
+# VS Code
+.vscode
+
+# Python
+.venv
+
+# MacOS  
+.DS_Store
+Icon?
+._*
+
