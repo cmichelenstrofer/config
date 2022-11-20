@@ -50,6 +50,7 @@ alias gitlog="git log --decorate --graph --all"
 alias venv="source .venv/bin/activate"
 alias python="python3"
 alias pip="pip3"
+alias pep8="autopep8 -d $1 | colordiff"
 
 # Julia                                                                                      
 alias juliap="julia --project"                                                               
