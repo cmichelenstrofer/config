@@ -24,7 +24,7 @@ if [ -n "$BASH_VERSION" ]; then
 elif [ -n "$ZSH_VERSION" ]; then
     alias ls="ls -G"
 fi
-alias diff="colordiff"  # need to install
+alias diff="colordiff" 
 
 # navigation
 alias la="ls -A"                                                                             
@@ -40,8 +40,11 @@ alias p="pwd"
 # copy large files through SSH
 alias rsync_ssh="rsync -P --rsh=ssh"
 
-# Configuration "dot" files
+# Configuration "dot" files - Git repo
 alias config="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
+# Bin executables - Git repo
+alias bin='/usr/bin/git --git-dir=$HOME/.bin/ --work-tree=$HOME/bin'
 
 # Git
 alias gitlog="git log --decorate --graph --all"
@@ -53,5 +56,5 @@ alias pip="pip3"
 
 # Julia                                                                                      
 alias juliap="julia --project"                                                               
-alias pluto="julia -e 'import Pluto;Pluto.run()'"
+#alias pluto="julia -e 'import Pluto;Pluto.run()'" # see script in ~/bin/
 
