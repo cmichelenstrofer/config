@@ -38,6 +38,12 @@
     "julia.enableTelemetry": true,
     "terminal.integrated.commandsToSkipShell": [
         "language-julia.interrupt"
+    ],
+    // spell checker
+    "cSpell.language": "en", // "en,lorem,en-GB,es",
+    "cSpell.enableFiletypes": [
+        "julia",
+        "juliamarkdown"
     ]
 }
 
