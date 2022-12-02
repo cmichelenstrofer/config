@@ -27,6 +27,7 @@ fi
 alias diff="colordiff" 
 
 # navigation
+alias l="ls"
 alias la="ls -A"                                                                             
 alias ll="ls -lhtr"                                                                          
 alias lla="ls -lhtrA"
