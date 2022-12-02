@@ -47,7 +47,3 @@ alias python="python3"
 alias pip="pip3"
 alias pep8="autopep8 -d $1 | colordiff"
 
-# Julia                                                                                      
-alias juliap="julia --project"                                                               
-#alias pluto="julia -e 'import Pluto;Pluto.run()'" # see script in ~/bin/
-
