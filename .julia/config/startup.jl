@@ -27,3 +27,5 @@ atreplinit() do repl
     end
 end
 
+# Unitful
+ENV["UNITFUL_FANCY_EXPONENTS"] = true

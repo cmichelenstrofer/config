@@ -44,6 +44,20 @@
     "cSpell.enableFiletypes": [
         "julia",
         "juliamarkdown"
-    ]
+    ],
+    "cSpell.userWords": [
+        "Nondimensionalizes",
+        "struct",
+        "trunc"
+    ],
+    // Allowed Character
+    "editor.unicodeHighlight.allowedCharacters": {
+        "𝐀": true,
+        "𝐋": true,
+        "𝐓": true,
+        "𝐓": true,
+        "′": true
+    },
+    // Jupyter
+    "jupyter.askForKernelRestart": false
 }
-

@@ -30,12 +30,6 @@ alias diff="colordiff"
 alias la="ls -A"                                                                             
 alias ll="ls -lhtr"                                                                          
 alias lla="ls -lhtrA"
-alias c="clear"                                                                              
-alias cl="c;ls"                                                                              
-alias cla="c;la"                                                                             
-alias cll="c;ll"                                                                             
-alias clla="c;lla"                                                                           
-alias p="pwd"                                                                                
 
 # copy large files through SSH
 alias rsync_ssh="rsync -P --rsh=ssh"
@@ -44,7 +38,7 @@ alias rsync_ssh="rsync -P --rsh=ssh"
 alias config="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
 # Git
-alias gitlog="git log --decorate --graph --all"
+alias gitlog="git log --graph --oneline --decorate"
 
 # Python
 alias venv="source .venv/bin/activate"
