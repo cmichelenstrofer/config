@@ -43,13 +43,24 @@
     "cSpell.language": "en", // "en,lorem,en-GB,es",
     "cSpell.enableFiletypes": [
         "julia",
-        "juliamarkdown"
+        "juliamarkdown",
+        "json"
     ],
-    "cSpell.userWords": [
-        "Nondimensionalizes",
-        "struct",
-        "trunc"
-    ],
+    "cSpell.customDictionaries": {
+        "project": {
+          "name": "project-words",
+          "path": "${workspaceRoot}/.project-words.txt",
+          "description": "Words used in this project",
+          "addWords": true
+        },
+        "julia": {
+            "name": "julia",
+            "path": "~/.julia-words.txt",
+            "description": "JuliaLang",
+            "addWords": false
+          },
+          "custom": true
+    },
     // Allowed Character
     "editor.unicodeHighlight.allowedCharacters": {
         "𝐀": true,
