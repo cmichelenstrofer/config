@@ -28,6 +28,7 @@
     "[python]": {
         "editor.rulers": [72, 79]
     },
+    "python.venvFolders": [".venv"],
     // Julia
     "[julia]": {
         "editor.rulers": [92],
