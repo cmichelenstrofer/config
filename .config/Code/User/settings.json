@@ -28,7 +28,9 @@
     "[python]": {
         "editor.rulers": [72, 79]
     },
-    "python.venvFolders": [".venv"],
+    "python.venvFolders": [
+        ".venv"
+    ],
     // Julia
     "[julia]": {
         "editor.rulers": [92],
@@ -63,13 +65,17 @@
           },
           "custom": true
     },
+    "cSpell.userWords": [
+        "cmichelenstrofer"
+    ],
     // Allowed Character
     "editor.unicodeHighlight.allowedCharacters": {
         "𝐀": true,
         "𝐋": true,
         "𝐓": true,
-        "𝐓": true,
-        "′": true
+        "′": true,
+        "‘": true,
+        "’": true
     },
     // Jupyter
     "jupyter.askForKernelRestart": false
