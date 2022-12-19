@@ -1,0 +1,16 @@
+COMPATHELPER
+autodocs
+compat
+deploydocs
+docstr
+getfield
+isdefined
+jldocs
+jldoctest
+juliamarkdown
+makedocs
+sitename
+struct
+testset
+trunc
+typeof

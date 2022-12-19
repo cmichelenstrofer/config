@@ -7,6 +7,7 @@
     // workbench startup behavior
     "workbench.startupEditor": "none",
     // editor look
+    "window.zoomLevel": 1,
     "editor.guides.indentation": false,
     // diff
     "diffEditor.ignoreTrimWhitespace": false,
@@ -43,6 +44,10 @@
     "terminal.integrated.commandsToSkipShell": [
         "language-julia.interrupt"
     ],
+    // Markdown
+    "[markdown]": {
+        "editor.rulers": [92]
+    },
     // spell checker
     "cSpell.language": "en", // "en,lorem,en-GB,es",
     "cSpell.enableFiletypes": [
@@ -59,7 +64,7 @@
         },
         "julia": {
             "name": "julia",
-            "path": "~/.julia-words.txt",
+            "path": "~/.julia/config/julia-words.txt",
             "description": "JuliaLang",
             "addWords": false
           },
@@ -78,5 +83,6 @@
         "’": true
     },
     // Jupyter
-    "jupyter.askForKernelRestart": false
+    "jupyter.askForKernelRestart": false,
+    "editor.multiCursorModifier": "ctrlCmd"
 }
