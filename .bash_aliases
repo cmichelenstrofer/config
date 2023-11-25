@@ -1,36 +1,9 @@
-# source from .bashrc or .zshrc file
+# source from .bashrc or .zshrc or .profile file
 
-## PATH ##
-PATH="$HOME/bin:$PATH"  # my bin
-
-
-## PROMPT ##
-if [ -n "$BASH_VERSION" ]; then
-    RESET="\[\017\]"
-    NORMAL="\[\033[0m\]"
-    GREEN="\[\033[01;32m\]"
-    BLUE="\[\033[01;34m\]"
-    PS1="${RESET}${GREEN}\u${NORMAL} ${BLUE}(\w)${NORMAL} ${GREEN}>${NORMAL} "
-elif [ -n "$ZSH_VERSION" ]; then
-    PROMPT="%F{cyan}%n > %f"
-    RPROMPT="%F{green}(%~)%f"
-fi
-
-
-## ALIASES ##
-# color
-if [ -n "$BASH_VERSION" ]; then
-    alias ls="ls --color=auto"                                                                   
-elif [ -n "$ZSH_VERSION" ]; then
-    alias ls="ls -G"
-fi
-alias diff="colordiff" 
-
-# navigation
-alias l="ls"
-alias la="ls -A"                                                                             
-alias ll="ls -lhtr"                                                                          
-alias lla="ls -lhtrA"
+# ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 
 # copy large files through SSH
 alias rsync_ssh="rsync -P --rsh=ssh"
@@ -40,10 +13,4 @@ alias config="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
 # Git
 alias gitlog="git log --graph --oneline --decorate"
-
-# Python
-alias venv="source .venv/bin/activate"
-alias python="python3"
-alias pip="pip3"
-alias pep8="autopep8 -d $1 | colordiff"
 
