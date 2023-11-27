@@ -8,15 +8,15 @@
 # for ssh logins, install and configure the libpam-umask package.
 #umask 022
 
-# if running bash
+# bashrc or zshrc
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
     if [ -f "$HOME/.bashrc" ]; then
 	    . "$HOME/.bashrc"
     fi
-elif [ -n "$ZSH_VERSION"]; then
+elif [ -n "$ZSH_VERSION" ]; then
     if [ -f ~/.zshrc ]; then
-	    source ~/.zshrc
+	    #source ~/.zshrc
     fi
 fi
 
