@@ -84,5 +84,6 @@
     },
     // Jupyter
     "jupyter.askForKernelRestart": false,
-    "editor.multiCursorModifier": "ctrlCmd"
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.fontFamily": "JuliaMono"
 }
