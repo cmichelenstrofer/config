@@ -7,6 +7,5 @@
     user = cmichelenstrofer
 [init]
     defaultBranch = main
-
 [core]
 	editor = vim
