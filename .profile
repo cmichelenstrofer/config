@@ -16,6 +16,7 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 elif [ -n "$ZSH_VERSION" ]; then
     if [ -f ~/.zshrc ]; then
+        sleep 0.1
 	    #source ~/.zshrc
     fi
 fi
